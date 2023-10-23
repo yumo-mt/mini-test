@@ -1,3 +1,6 @@
+import Day from "dayjs"
+console.log(Day);
+
 export const formatTime = (date: Date) => {
   const year = date.getFullYear()
   const month = date.getMonth() + 1
